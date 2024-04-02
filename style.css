@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-top: 8px;
+    padding: 0 20px;
+}
+
+header li {
+    margin-left: 15px;
+}
+
+.image-profile{
+    margin-left: 15px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.search-input {
+    width: 40rem;
+    height: 3rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.logo-img {
+    width: 7rem;
+}
+
+.contact {
+    margin: 20px 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    font-size: 14px;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+
+.contact-input,
+.contact-submit {
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-submit:hover, button:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+.contact-submit {
+    border: 1px solid #ccc !important;
+    margin-top: 15px;
+    border: none;
+}
+
+.contact textarea {
+    outline: none;
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 10px;
+    height: 150px;
+}
+
+footer {
+    padding: 0 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-end {
+    justify-content: end;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 0px;
+    list-style-type: none;
+}

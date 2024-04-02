@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Braze</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="https://i.imgur.com/ObWDae1_d.webp?maxwidth=760&fidelity=grand" type="image/x-icon">
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="d-flex bg-header" style="padding: 10px">
+            <img src="https://i.imgur.com/ObWDae1_d.webp?maxwidth=760&fidelity=grand" style="width: 40px;">
+            <div class="d-flex flex-end w-100">
+                <li class="center d-flex" style="margin-right: 10px;">
+                    <a href="/contato.html" style="text-decoration: none;">
+                        Contato
+                    </a>
+                </li>
+                <li class="center d-flex">
+                    Email
+                </li>
+
+                <img class="image-profile" src="https://avatars.githubusercontent.com/u/92129999?v=4" />
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div id="container">
+            <div id="image-container">
+                <img src="https://i.imgur.com/ObWDae1_d.webp?maxwidth=760&fidelity=grand" alt="Logo da Braze"
+                    class="logo-img">
+            </div>
+            <div id="search-container">
+                <input type="text" placeholder="Pesquisar" id="search" class="search-input">
+            </div>
+            <div id="buttons-container">
+                <button onclick="search()">Pesquisar</button>
+                <button>Estou com sorte</button>
+            </div>
+        </div>
+    </main>
 </body>
+<footer>
+    <ul class="d-flex">
+        <li>Trabalhe Conosco</li>
+        <li>Termos</li>
+    </ul>
+    <ul class="d-flex">
+        <li>Privacidade</li>
+        <li>Configurações</li>
+        <li>Braze Copyright © 2024</li>
+    </ul>
+</footer>
+
+<script type="text/javascript" src="index.js"></script>
+
 </html>
